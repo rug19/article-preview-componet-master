@@ -51,7 +51,7 @@
 
 .main_paragraph {
   font-family: "Manrope", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--Desaturated-Dark-Blue);
   font-weight: 500;
   margin-bottom: 1.2rem;
@@ -199,16 +199,16 @@
 
 /* Mobile Version */
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .sub_container {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 343px;
     height: 536px;
   }
 
   .img_drawears {
-    width: 336px;
+    width: 100%;
     height: 215px;
     border-radius: 11px 11px 0px 0px;
   }
